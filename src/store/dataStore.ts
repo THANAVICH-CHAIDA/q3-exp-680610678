@@ -73,11 +73,16 @@ export const useItemStore = create<ItemState>()(
             ...state.expenses,
           ],
         })),
+
+        deleteExpense: (id: string) =>
+        set((state) => ({
+          expenses: state.expenses.filter((expense) => expense.id !== id),
+        })),
       
     }),
     {
       // Unique key name for the localStorage entry
-      name: "app-storage",
+      name: "exp-680610678",
     },
   ),
 );
