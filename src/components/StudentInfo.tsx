@@ -28,10 +28,17 @@ export function StudentInfo() {
         </div>
         <div className="p-4">
           <p>ชื่อ: Thanavich Chaida</p>
+          
           <p>อายุ: 19</p>
+
           <p>เมเจอร์: Computer Engineering</p>
+
           <p>รหัสนักศึกษา: 680610678</p>
+
+          <p>CMU-email: thanavich_c@cmu.ac.th</p>
+
           <p>IG: t.ch_kj</p>
+
           <p>งานอดิเรก: เล่นเกม</p>
         </div>
       </div>
